@@ -289,14 +289,8 @@ minetest.register_node("liminal:liminal_lamp_ceiling", {
 
    mesh = "liminal_ceiling_lamp.obj",
    tiles = {
-      { name = "lm-light.png", },
-   },   
-   
---   paramtype2 = "facedir",
---   selection_box = {
---       type = "facedir",
---    },
-   
+      { name = "lm-lamp-plastic.png", },
+   },
 })
 
 minetest.register_craft({
